@@ -1,0 +1,38 @@
+# Ignore virtual environment
+keyword_extraction_venv/
+venv/
+.env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.model
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (if large or confidential)
+Data/
+*.csv
+*.txt
+*.xlsx
+
+# Ignore log files
+*.log
+
+# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore environment/config files
+*.env
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
