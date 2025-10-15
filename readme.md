@@ -44,7 +44,7 @@ keyword_extraction/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/MonikaChaulagain/keyword-extraction.git
+git clone https://github.com/MonikaChaulagain/KeywordsExtraction.git
 cd keyword-extraction
 
 
