@@ -23,20 +23,21 @@ The final system allows users to send raw text to a **FastAPI endpoint** and get
 
 
 ## 🏗️ Project Structure
-
 keyword_extraction/
 │
-├── data/                         #Data Folder containing .csv article files
-│   ├── technology_data.csv
-│   └── business_data.csv
+├── data/                           # Contains CSV files with categorized articles
+│   ├── business_data.csv
+│   ├── education_data.csv
+│   ├── entertainment_data.csv
+│   ├── sports_data.csv
+│   └── technology_data.csv
 │
-├── keyword_extraction.ipynb       # Notebook for training and saving models
-├── main.py                        # FastAPI app for deployment
-├── tfidf_vectorizer.pkl           # Saved TF-IDF vectorizer
-├── w2v_model.model                # Saved Word2Vec model
-├── requirements.txt               # Project dependencies
-└── README.md                      # Project documentation
-
+├── keyword_extraction.ipynb         # Notebook for training and saving models
+├── main.py                          # FastAPI app for deployment
+├── tfidf_vectorizer.pkl             # Saved TF-IDF vectorizer
+├── w2v_model.model                  # Saved Word2Vec model
+├── requirements.txt                 # Project dependencies
+└── README.md                        # Project documentation
 
 
 ## ⚙️ Installation
